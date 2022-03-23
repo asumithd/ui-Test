@@ -1,0 +1,391 @@
+*,
+body {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-section {
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img.header-carousel-img {
+    width: 100%;
+    height: 550px;
+}
+
+.slide1 {
+    background: url('../images/header1.png');
+}
+
+.slide2 {
+    background: url('../images/header2.jpg');
+}
+
+.slide3 {
+    background: url('../images/header3.jpg');
+}
+
+.slide4 {
+    background: url('../images/header4.jpg');
+}
+
+.hero-header,
+.hero-footer {
+    margin: 0;
+}
+
+.hero-header h3.hero-link-text,
+.hero-footer h3.hero-link-text {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0;
+}
+
+.hero-body {
+    height: 66vh;
+    margin: 0;
+}
+
+.hero-body .hero-message-container img.hero-image {
+    height: 80px;
+    width: 80px;
+}
+
+.hero-body .hero-message-container .hero-message-text {
+    color: #fff;
+    font-weight: 300;
+    font-size: 33px;
+    margin: 0 15px;
+    padding: 0;
+}
+
+.showContainer {
+    padding: 10px;
+    max-width: 90%;
+    box-sizing: border-box;
+}
+
+.showContainer .showContainerBox {
+    width: 90%;
+    margin: auto;
+}
+
+.showContainer .showContainerBox .showContainerBoxInn {
+    display: flex;
+    width: 100%;
+}
+
+.contactContainerBox .contactContainer {
+    padding: 50px 10px;
+    max-width: 90%;
+    box-sizing: border-box;
+}
+
+.logoContainer {
+    height: 225px;
+    padding: 10px;
+    max-width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.showContainer .serviceBox p.description-Text {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.showContainer .serviceBox h1.header-Text {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.showContainer .showContainerBoxInn .card-height h5.showBoxHeader {
+    font-weight: 600;
+}
+
+.showContainer .showContainerBoxInn .card-height p.showBoxDescription {
+    font-weight: 300;
+}
+
+.showContainer .showContainerBoxInn .card-height .showBox-Image,
+.showContainer .showContainerBoxInn .card-height h5.showBoxHeader,
+.showContainer .showContainerBoxInn .card-height p.showBoxDescription {
+    padding: 10px;
+}
+
+.showBtn {
+    background: #f8c708;
+    padding: 10px;
+    border: none;
+    width: 70%;
+    font-weight: 600;
+    color: #41409a;
+}
+
+.showContainer .showContainerBoxInn .card-height .showBox-Image img {
+    height: 100px;
+}
+
+.marginTB30 {
+    margin: 30px 0;
+}
+
+.margin0 {
+    margin: 0;
+}
+
+.marginb0 {
+    margin-bottom: 0;
+}
+
+.marginL15 {
+    margin-left: 15px;
+}
+
+.width50 {
+    width: 50%;
+}
+
+.width60 {
+    width: 60%;
+}
+
+.width40 {
+    width: 40%;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.contactText {
+    font-size: 50px;
+    padding-right: 10px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.showBtn.contactBox {
+    width: 50%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h6.footer-text {
+    color: #fff;
+    font-weight: 300;
+}
+
+h6.footer-text.boldText {
+    font-weight: 700;
+}
+
+#sujet {
+    font-weight: 300;
+}
+
+.contactModelBtn {
+    background: transparent;
+    border: 3px solid #fff;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.paddingT20 {
+    padding: 20px 0 0 0;
+}
+
+a.footer-Link {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.boxModelBg,
+.contactContainerBox {
+    background-color: #41409a;
+}
+
+.customInput {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    border-radius: 0;
+    color: #fff;
+    padding: 0;
+}
+
+.customLabel {
+    margin: 0;
+    color: #fff;
+}
+
+select.form-control:not([size]):not([multiple]) {
+    height: calc(1.5rem + 2px) !important;
+}
+
+.marginT15 {
+    margin-top: 15px;
+}
+
+#checkValue {
+    width: 50px;
+    height: 50px;
+}
+
+.checkValueDetails {
+    margin: 0px 0px 0px 10px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #f4f3fb;
+}
+
+.showBtn.formModelBtn {
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0 10px;
+}
+
+.customClose {
+    color: #fff;
+    margin: 10px 20px 0px 0px;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.customForm {
+    width: 70%;
+    margin: auto;
+}
+
+.marginB30 {
+    margin-bottom: 30px;
+}
+
+.paddingTB20 {
+    padding: 20px 0;
+}
+
+.error {
+    color: #ff3860 !important;
+    font-weight: bold;
+}
+
+.success {
+    border-color: aquamarine;
+}
+
+.padding30 {
+    padding: 30px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #41409a;
+}
+
+.addressContainer {
+    padding: 0 10px 0 0px;
+}
+
+.logo-carousel-img {
+    margin: auto;
+    width: 150px;
+}
+
+h6.carousel-header {
+    padding: 20px 0;
+    font-weight: 600;
+}
+
+.hero-header .justifycontentEnd,
+.hero-footer .justifycontentEnd {
+    justify-content: end;
+}
+
+.hero-header .justifycontentcenter {
+    justify-content: center;
+}
+
+@media (max-width: 575px) {
+    .hero-header .justifycontentEnd,
+    .hero-footer .justifycontentEnd,
+    .hero-header .justifycontentcenter {
+        justify-content: start;
+    }
+    .showContainer .customFlexDirColumn,
+    .showContainerBoxInn,
+    .contactContainerInn,
+    .footer-registerBox {
+        flex-direction: column;
+    }
+    .showContainer .customFlexDirColumn .card-height,
+    .contactContainerInn .width60,
+    .contactContainerInn .width40 {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .contactText {
+        font-size: 45px;
+    }
+    .contactContainerInn .width40 .showBtn.contactBox {
+        width: 100%;
+    }
+    .addressContainer {
+        flex-wrap: wrap;
+    }
+    .footer-registerBox {
+        justify-content: start !important;
+        align-items: flex-start !important;
+        margin: 10px 0 0 0;
+    }
+    .footer-registerBox .marginL15 {
+        margin: 10px 0 0 0;
+    }
+}
+
+@media (min-width: 576px) {
+    .showContainer .customFlexDirColumn,
+    .showContainerBoxInn,
+    .contactContainerInn {
+        flex-direction: column;
+    }
+    .showContainer .customFlexDirColumn .card-height,
+    .contactContainerInn .width60,
+    .contactContainerInn .width40 {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .contactText {
+        font-size: 45px;
+    }
+    .footer-registerBox {
+        justify-content: start !important;
+        align-items: flex-start !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .showContainer .customFlexDirColumn,
+    .showContainerBoxInn,
+    .contactContainerInn {
+        flex-direction: row;
+    }
+    .showContainer .customFlexDirColumn .card-height {
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
