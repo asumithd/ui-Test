@@ -188,10 +188,6 @@ h6.footer-text.boldText {
     font-weight: 700;
 }
 
-#sujet {
-    font-weight: 300;
-}
-
 .contactModelBtn {
     background: transparent;
     border: 3px solid #fff;
@@ -385,7 +381,3 @@ h6.carousel-header {
         justify-content: space-between;
     }
 }
-
-@media (min-width: 992px) {}
-
-@media (min-width: 1200px) {}
